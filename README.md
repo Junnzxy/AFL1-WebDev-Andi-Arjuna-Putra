@@ -87,32 +87,6 @@ AFL - 1/
 
 ---
 
-## 📹 YouTube Video Script Outline (Slide 4 Requirement)
-
-When recording your video overview for YouTube, follow this recommended structure:
-
-1. **Introduction (30s)**:
-   - Introduce yourself and your course module (Web Development - AFL 1).
-   - State the objective: Demonstrating MVC architecture using PHP.
-
-2. **Web Application Tour (1.5 mins)**:
-   - Show the navigation bar (`Employee | Office | Office-Employees`).
-   - Demonstrate **Employee**: Add a new employee, view the updated list, delete an entry.
-   - Demonstrate **Office**: Add a new office (Name, Address, City, Phone), view list, delete an entry.
-   - Demonstrate **Challenge (Office-Employees)**: Assign an employee to an office using dropdowns, save, and show the resulting relation in the table.
-
-3. **Code Architecture Explanation (2 mins)**:
-   - Show `index.php` (Front Controller routing query parameters).
-   - Open a Model (e.g., `Employee.php`) to show data logic separation.
-   - Open a Controller (e.g., `EmployeeController.php`) to show action handling (`index()`, `store()`, `delete()`).
-   - Open a View (e.g., `views/employee/index.php`) to show UI separation.
-
-4. **Conclusion (30s)**:
-   - Summarize how MVC enforces clean code organization.
-   - Provide link to GitHub repository in video description.
-
----
-
 ## 🐙 GitHub Publishing Guide
 
 To push this repository to GitHub:
